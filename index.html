@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Memory Game || Anime Edition</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+
+    <div class="main-menu">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            Hello, <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+
+    <div class="timer" id="timer">
+        60
+    </div>
+
+    <div class="memory-game-blocks">
+        <!-- Mei -->
+        <div class="game-block" data-anime="mei">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image1.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="mei">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Ulquiorra -->
+        <div class="game-block" data-anime="ulquiorra">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image2.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="ulquiorra">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image2.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Kanao -->
+        <div class="game-block" data-anime="kanao">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image3.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="kanao">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image3.png" alt="">
+            </div>
+        </div>
+
+        <!-- Eren -->
+        <div class="game-block" data-anime="eren">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image4.webp" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="eren">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image4.webp" alt="">
+            </div>
+        </div>
+
+        <!-- Chifuyu -->
+        <div class="game-block" data-anime="chifuyu">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image5.webp" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="chifuyu">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image5.webp" alt="">
+            </div>
+        </div>
+
+        <!-- Zoro -->
+        <div class="game-block" data-anime="zoro">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image6.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="zoro">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image6.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Kakashi -->
+        <div class="game-block" data-anime="kakashi">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image7.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="kakashi">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image7.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Levi -->
+        <div class="game-block" data-anime="levi">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image8.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="levi">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image8.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Sukuna -->
+        <div class="game-block" data-anime="sukuna">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image9.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="sukuna">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image9.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Gojo -->
+        <div class="game-block" data-anime="gojo">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image10.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="gojo">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="Images/image10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>Created By Code Art</span>
+    </footer>
+
+    <!-- Audio -->
+    <audio id="success" src="./Audio/SuccessSoundEffect.mp3" preload="auto"></audio>
+    <audio id="fail" src="./Audio/FailSoundEffect.mp3" preload="auto"></audio>
+    <audio id="main-theme" src="./Audio/8-bit-game-music.mp3" preload="auto"></audio>
+
+    <script src='main.js'></script>
+</body>
+</html>
